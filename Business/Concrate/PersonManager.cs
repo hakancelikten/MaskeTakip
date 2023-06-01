@@ -10,7 +10,6 @@ namespace Business.Concrate
     //Çıplak kalmasın.
     public class PersonManager
     {
-
         public void ApplyForMask(Person person)
         {
 
@@ -19,10 +18,9 @@ namespace Business.Concrate
         {
             return null;
         }
-        public bool CheckPerson(Person person);
+        public bool CheckPerson(Person person)
         {
-        return true;
+            return true;
         }
     }
-
 }
