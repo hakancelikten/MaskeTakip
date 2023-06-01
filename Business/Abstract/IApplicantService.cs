@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    internal interface IApplicantService
+    public interface IApplicantService
     {
+        public void ApplyForMask(Person person)
+        {
+
+        }
+        public List<Person> Getlist()
+        {
+            return null;
+        }
+        public bool CheckPerson(Person person);
+        {
+        return true;
     }
 }
